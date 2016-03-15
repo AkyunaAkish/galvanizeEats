@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galvanize Eats</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="orderBody">
+
+  <header id="mainHeader"><a class="headerAnchor" href="index.html">Galvanize Eats</a></header>
+
+  <div class="mainContainer">
+
+    <div class="orderDiv">
+
+      <div class="menuItems">
+
+        <div class="burgers">
+          <p>Burgers</p>
+        </div>
+
+        <div class="pizzas">
+          <p>Pizza</p>
+        </div>
+
+
+      </div>
+
+      <div class="qnty">
+        <label for="">Quantity</label><br>
+        <input type="number" class="amountInput">
+        <button class="addButton">Add item</button>
+
+
+
+
+        <div class="orderForm" novalidate>
+          <label for="">Name</label>
+          <input type="text" class="name">
+          <label for="">Phone Number</label>
+          <input type="text" class="phoneNum">
+          <label for="">Address</label>
+          <input type="text" class="address">
+          <button class="deliverButton">Deliver It!</button>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="grandTotal"></div>
+
+    <div class="total">
+      <p class="subTotal">Subtotal: 0.00</p>
+      <p class="tax">Tax: 0.00</p>
+      <p class="grandTotalP">Grand Total: 0.00</p>
+    </div>
+
+  </div>
+
+
+  <footer class="footer">
+    <i class="fa fa-copyright"></i> Galvanize 2016 <i class="fa fa-plus"></i> Boulder Colorado
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

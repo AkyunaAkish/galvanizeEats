@@ -1,0 +1,158 @@
+.homeImageDiv {
+  background-image: url("http://menusandcarts.com/wichita/assets/images/restaurant_owners.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+#orderBody {
+  background: #e7b14a; }
+
+#mainHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  width: 100vw;
+  padding: 10px 0 10px 30px;
+  color: white;
+  font-size: 2em;
+  opacity: 0.8; }
+
+#catchPhrase {
+  position: absolute;
+  width: 20vw;
+  margin-left: 40%;
+  margin-top: 15%;
+  font-size: 2em;
+  color: white;
+  font-weight: 600; }
+
+.homeImageDiv button {
+  margin-bottom: 20px;
+  background-color: #6fa072;
+  border: none;
+  color: white;
+  font-size: 1.7em;
+  width: 50vw;
+  padding: 10px 0 10px 0; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: black;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  padding: 10px 0 10px 0; }
+
+.contentItems {
+  display: flex;
+  line-height: 30px; }
+
+.changePages a {
+  text-decoration: none;
+  color: white; }
+  .changePages a:visited {
+    color: white; }
+  .changePages a:hover {
+    color: black; }
+
+.mainContainer {
+  display: flex;
+  justify-content: center; }
+
+.mainContainer * {
+  margin-top: 15vh; }
+
+.headerAnchor {
+  text-decoration: none;
+  color: white; }
+  .headerAnchor:hover {
+    color: lightgray; }
+
+.orderDiv {
+  height: 75vh;
+  width: 80vh;
+  margin-right: 2vw; }
+
+.grandTotal {
+  width: 50vh;
+  background: white; }
+
+.menuItems {
+  margin-top: 0;
+  padding: 0;
+  height: 30vh;
+  width: 100%;
+  top: 0;
+  background: white;
+  overflow: scroll; }
+  .menuItems * {
+    margin: 0; }
+
+.qnty {
+  margin-top: 0;
+  padding: 0; }
+  .qnty * {
+    margin: 0px; }
+  .qnty label {
+    margin-top: 10px !important; }
+  .qnty button {
+    background: #5c76a4;
+    border: none;
+    color: white;
+    height: 4vh; }
+
+.orderForm * {
+  display: block; }
+
+.orderForm button {
+  background: #6fa072 !important; }
+
+.orderForm input, .orderForm button {
+  width: 100%; }
+
+.orderForm input {
+  background: #fdfbbf;
+  border: none;
+  margin-top: 5px; }
+
+.orderForm button {
+  margin-top: 10px;
+  height: 7vh; }
+
+.burgers span, .pizzas span {
+  display: block;
+  line-height: 50px;
+  padding-left: 20px; }
+
+.burgers p, .pizzas p {
+  font-weight: bold;
+  padding-left: 3px;
+  display: inline; }
+
+.burgers .secondP, .pizzas .secondP {
+  float: right;
+  margin-right: 10px; }
+
+.totalSpan {
+  display: block;
+  line-height: 50px;
+  padding-left: 20px;
+  margin: 0; }
+  .totalSpan p {
+    font-weight: bold;
+    padding-left: 3px;
+    display: inline; }
+
+.grandTotal {
+  overflow: scroll;
+  max-height: 70vh; }
+
+.total p {
+  margin: 0; }
